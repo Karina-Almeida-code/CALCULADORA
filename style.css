@@ -1,47 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: monospace;
 }
 
-.fundo{
+.fundo {
     background: linear-gradient(135deg, #0D0D0D 20%, #613597 100%);
- height: 100vh;
- display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-flex-direction: column;
-color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: white;
 
 }
 
-h1{
+h1 {
     font-size: 25px;
 }
 
-.karina{
-      background: linear-gradient(135deg, #0D0D0D 20%, #613597 100%);
-      color: white;
-      text-align: center;
-      border: none;
-      font-size: 35px;
+.karina {
+    background: linear-gradient(135deg, #0D0D0D 20%, #613597 100%);
+    color: white;
+    text-align: center;
+    border: none;
+    font-size: 35px;
 }
 
 
 
-.calculadora{
+.calculadora {
 
-background-color: rgba(219, 217, 217, 0.2);
-height: 500px;
-width: 300px;
-border-radius: 8px;
-text-align: center;
+    background-color: rgba(219, 217, 217, 0.2);
+    height: 500px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
     padding: 60px 8px;
 }
 
-p{
+p {
     background-color: rgba(255, 255, 255, 0.5);
     color: black;
     width: 90%;
@@ -52,15 +52,15 @@ p{
     font-size: 25px;
     text-align: right;
 
- 
+
 
 }
 
-.botao{
+.botao {
     background-color: rgba(219, 217, 217, 0.2);
     border: none;
     width: 72px;
-    height:46px;
+    height: 46px;
     color: white;
     padding: 8px;
     font-size: 15px;
@@ -69,12 +69,12 @@ p{
     font-weight: bold;
 }
 
-.botao:hover{
+.botao:hover {
     opacity: 0.6;
 }
 
-button{
-   border: none;
+button {
+    border: none;
     background-color: transparent;
     width: 100%;
     height: 100%;
@@ -91,14 +91,14 @@ button{
 
 
 
-@media (max-width: 768px){
-    
-    .calculadora{
+@media (max-width: 768px) {
+
+    .calculadora {
         width: 80%;
         height: 50%;
     }
 
-    .calculadora{
+    .calculadora {
         width: 90%;
         height: 50%;
         display: flex;
@@ -108,35 +108,35 @@ button{
 
 
 
-     .botao:hover{
+    .botao:hover {
         opacity: 0.8;
     }
 
-    p{
-              color: black;
+    p {
+        color: black;
         width: 100%;
-        height: 80px;
-        margin: 2px auto;
-        border-radius: 5px;
-        font-size: 25px;
-        text-align: right;
-        position: relative;
-        bottom: 5px;
+        height: 60px;
+        padding: 30px;
+        font-size: 30px;
+        font-weight: 600 border-radius: 8px;
+        background: #eee;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
     }
 
-    button{
+    button {
         border: none;
-    background-color: transparent;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    font-size: 25px;
-    font-weight: 700;
+        background-color: transparent;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        font-size: 25px;
+        font-weight: 700;
     }
 
-    h1{
+    h1 {
         font-size: 35px;
         font-weight: 600;
     }
 }
-
